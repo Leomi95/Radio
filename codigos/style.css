@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #25e1e8;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#radio-player {
+    text-align: center;
+}
+
+#program-information {
+    margin-top: 20px;
+}
+
+/* Estilos para el menú de navegación */
+/* ... (otros estilos CSS) ... */
+
+/* Estilos para el menú de hamburguesa */
+.menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+    display: none;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Estilos para dispositivos con pantalla pequeña */
+@media screen and (max-width: 768px) {
+    .menu-icon {
+        display: block;
+    }
+
+    nav ul {
+        display: none;
+        flex-direction: column;
+        background-color: #333;
+        position: absolute;
+        top: 40px;
+        right: 0;
+    }
+
+    nav ul.active {
+        display: flex;
+    }
+}
+
+
+footer {
+    background-color:#25e1e8;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
