@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Radio en Línea</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Radio</a></li>
+                <li><a href="#">Genero</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+        <h1>Mi Radio en Línea</h1>
+    </header>
+    <main>
+        <section id="radio-player">
+            <audio id="radio-stream" controls>
+                <source src="tu_stream.mp3" type="audio/mpeg">
+                Tu navegador no admite la reproducción de audio.
+            </audio>
+        </section>
+        <section id="program-information">
+            <h2>Programa Actual</h2>
+            <p>Nombre del programa: <span id="program-name">Nombre del Programa</span></p>
+            <p>Locutor: <span id="locutor">Locutor</span></p>
+        </section>
+        
+    </main>
+    <footer>
+        <p>&copy; 2023 Mi Radio en Línea</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
